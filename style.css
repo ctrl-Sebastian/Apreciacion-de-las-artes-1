@@ -48,10 +48,6 @@ header{
     font-weight: 600;
 }
 
-.navbar, .temas{
-    display: flex;
-}
-
 .navbar a{
     text-align: center;
     color: var(--text-color);
@@ -234,3 +230,12 @@ p{
     }
 }
 
+.navbar, .temas{
+    display: flex;
+}
+
+@media screen and (max-width: 800px){
+    .temas{
+        flex-direction: column;
+    }
+}
