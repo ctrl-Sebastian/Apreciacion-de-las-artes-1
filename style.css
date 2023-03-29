@@ -233,6 +233,9 @@ p{
 .navbar, .temas{
     display: flex;
 }
+.temas>ul>li{
+    padding: 10px;
+}
 
 @media screen and (max-width: 800px){
     .temas{
