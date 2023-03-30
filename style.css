@@ -6,7 +6,9 @@
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
-
+hr{
+    margin: 5px
+}
 body{
     background-color: #abd3df;
 }
@@ -83,7 +85,6 @@ header{
     color: var(--main-color);
 }
 
-
 .creator{
     display: flex;
     align-items: center;
@@ -155,7 +156,6 @@ header{
     margin-top: 100px;
     display: none;
 }
-
 
 .header {
     padding: 30px;
@@ -233,11 +233,24 @@ p{
 .navbar, .temas{
     display: flex;
 }
-.temas>ul>li{
-    padding: 10px;
+.temas>li{
+    margin: 5px;
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 25px;
 }
-
-@media screen and (max-width: 800px){
+.embededVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    margin: 5px;
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 25px;
+}
+@media screen and (max-width: 1000px){
     .temas{
         flex-direction: column;
     }
