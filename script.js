@@ -15,6 +15,8 @@ let btn5 = document.querySelector("#btn5");
 let btn6 = document.querySelector("#btn6");
 let btn7 = document.querySelector("#btn7");
 
+let Unidades = document.querySelectorAll(".unidad");
+
 let Unidad1 = document.querySelector(".unidad1");
 let Unidad2 = document.querySelector(".unidad2");
 let Unidad3 = document.querySelector(".unidad3");
@@ -23,13 +25,13 @@ let Unidad5 = document.querySelector(".unidad5");
 let Unidad6 = document.querySelector(".unidad6");
 let Unidad7 = document.querySelector(".unidad7");
 
-
 btn1.addEventListener('click', () =>{
     console.log('btn1 clicked');
     if (Unidad1.style.display === 'block'){
         Unidad1.style.display = 'none';
     } else {
         Unidad1.style.display = 'block';
+        
     }
 });
 
