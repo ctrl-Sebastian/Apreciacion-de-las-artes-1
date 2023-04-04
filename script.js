@@ -7,6 +7,14 @@ menu.onclick = () => {
 }
 
 
+var userFeed = new Instafeed({
+    get: 'user',
+    target: "instafeed-container",
+    resolution: 'high_resolution',
+    accessToken: 'IGQVJYc2NWaGlKN2x5emZAYMUhURFFXU0UxWGFuLU5rSXFETUlMNUxCS2tjSHQ3WEg3VWZATcWRNSkhwZAFlCbVZAiNnNZAMTZANR1IwQXFpOVJ2UFQ4WlRJSWM2bjdrNEhyRWRxSnBnM3l2ZAG1MSjRvTl9CNgZDZD'
+});
+userFeed.run();
+
 let btn1 = document.querySelector("#btn1");
 let btn2 = document.querySelector("#btn2");
 let btn3 = document.querySelector("#btn3");
