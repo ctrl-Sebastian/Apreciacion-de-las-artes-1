@@ -9,8 +9,8 @@ menu.onclick = () => {
 
 var userFeed = new Instafeed({
     get: 'user',
-    target: "instafeed-container",
-    resolution: 'high_resolution',
+    target: 'instafeed-container',
+    resolution: 'medium_resolution',
     accessToken: 'IGQVJYc2NWaGlKN2x5emZAYMUhURFFXU0UxWGFuLU5rSXFETUlMNUxCS2tjSHQ3WEg3VWZATcWRNSkhwZAFlCbVZAiNnNZAMTZANR1IwQXFpOVJ2UFQ4WlRJSWM2bjdrNEhyRWRxSnBnM3l2ZAG1MSjRvTl9CNgZDZD'
 });
 userFeed.run();
@@ -22,8 +22,6 @@ let btn4 = document.querySelector("#btn4");
 let btn5 = document.querySelector("#btn5");
 let btn6 = document.querySelector("#btn6");
 let btn7 = document.querySelector("#btn7");
-
-let Unidades = document.querySelectorAll(".unidad");
 
 let Unidad1 = document.querySelector(".unidad1");
 let Unidad2 = document.querySelector(".unidad2");
