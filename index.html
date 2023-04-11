@@ -22,13 +22,13 @@
         <a href="#" onclick="javascript:window.location.reload()" class="logo"><i class="fa-solid fa-palette"></i><span>Apreciación de las artes 1</span></a>
 
         <ul class="navbar">
-            <li><a href="#" id="btn1">Unidad 1</a></li>
-            <li><a href="#" id="btn2">Unidad 2</a></li>
-            <li><a href="#" id="btn3">Unidad 3</a></li>
-            <li><a href="#" id="btn4">Unidad 4</a></li>
-            <li><a href="#" id="btn5">Unidad 5</a></li>
-            <li><a href="#" id="btn6">Unidad 6</a></li>
-            <li><a href="#" id="btn7">Unidad 7</a></li>
+            <li><a href="#" class="buttonNavbar" id="btn1">Unidad 1</a></li>
+            <li><a href="#" class="buttonNavbar" id="btn2">Unidad 2</a></li>
+            <li><a href="#" class="buttonNavbar" id="btn3">Unidad 3</a></li>
+            <li><a href="#" class="buttonNavbar" id="btn4">Unidad 4</a></li>
+            <li><a href="#" class="buttonNavbar" id="btn5">Unidad 5</a></li>
+            <li><a href="#" class="buttonNavbar" id="btn6">Unidad 6</a></li>
+            <li><a href="#" class="buttonNavbar" id="btn7">Unidad 7</a></li>
         </ul>
 
         <div class="main">
@@ -175,7 +175,6 @@
                     <div class="card">
                         <h2>Mis publicaciones <strong>(haz click)</strong></h2>
                         <p>Soy un desarrollador de software y videojuegos trabajando duro en el camino del fullstack. En mi tiempo libre disfruto programar juegos en unity. Pásate por mi instagram <a></p>
-                        <div id="instafeed-container"></div>
                     </div>
                 </div>
             </div>
@@ -183,7 +182,7 @@
 
         <div class="unidad unidad2">
             <div class="header">
-                <h2>Unidad 2</h2>
+                <h2><i class="fa-solid fa-gear fa-shake fa-2xl"></i> Unidad 2</h2>
             </div>
             
             <div class="row">
@@ -218,7 +217,7 @@
                         <p>El arte también puede influir en la cultura y en la forma en que las personas piensan y se relacionan entre sí. Las obras de arte pueden tener un impacto emocional y psicológico en los espectadores, y pueden ser utilizadas para promover la reflexión, la discusión y el cambio social.</p>
 <br>
                         <h4>El arte es un reflejo de la sociedad y de los valores, las creencias, las costumbres y las experiencias que comparten sus miembros.</h4>
-                        <h4>la sociedad y el arte están interconectados, y se influencian mutuamente. El arte es una forma de expresión y transmisión de la cultura, y al mismo tiempo puede ser una herramienta para cuestionar y transformarla.</h4>
+                    <h4>la sociedad y el arte están interconectados, y se influencian mutuamente. El arte es una forma de expresión y transmisión de la cultura, y al mismo tiempo puede ser una herramienta para cuestionar y transformarla.</h4>
 
                     </div>
 
@@ -238,18 +237,122 @@
         
         <div class="unidad unidad3">
             <div class="header">
-                <h2>Unidad 3</h2>
+                <h2><i class="fa-solid fa-paintbrush fa-shake fa-2xl"></i> Unidad 3</h2>
             </div>
             
             <div class="row">
                 <div class="leftcolumn">
-                    <div id="obra pictorica" class="card">
+                    <div id="obra-pictorica" class="card">
                         <h1>Apreciación de una obra pictórica</h1>
                         <h5>Visita a museo Bellapart, Marzo 1, 2023</h5>
                         <img src="./imgs/museo3.jpg" alt="Entrada a museo Bellapart">
                         <hr>
                         <p>El miércoles 1ro de marzo se hizo una visita guiada al museo bellapart en el que se indicó que debiamos hacer un análisis de dos obras que escojamos</p>
-                        <h2>Desnudo - Celeste Woss y Gil</h2>
+
+                        <!-- Slideshow container -->
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                            <div class="numbertext">1 / 8</div>
+                            <img src="./imgs/museo1.jfif" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides fade">
+                            <div class="numbertext">2 / 8</div>
+                            <img src="./imgs/museo2.jfif" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides fade">
+                            <div class="numbertext">3 / 8</div>
+                            <img src="./imgs/museo3.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 8</div>
+                                <img src="./imgs/museo4.jpeg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">5 / 8</div>
+                                <img src="./imgs/museo5.jpeg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">6 / 8</div>
+                                <img src="./imgs/museo6.jpeg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">7 / 8</div>
+                                <img src="./imgs/museo7.jpeg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">8 / 8</div>
+                                <img src="./imgs/museo8.jpeg" style="width:100%">
+                            </div>
+                        
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                        
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+
+                        <h2>Guía de análisis de una obra pictórica:</h2>
+                        <h3>Descripción:</h3>
+                        <p>Aquí se expone el asunto representado, la técnica de la obra(Fresco, temple, acuarela, óleo) y el soporte en el que fue hecha (muro, tabla, lienzo, papel).</p>
+
+                        <h3>Elementos formales</h3>
+                        <ul>
+                            <li>Tipo de pincelada</li>
+                            <li>Textura</li>
+                            <li>Representación o no del volumen</li>
+                            <li>Información sobre la luz en la obra(tipo, procedencia, intensidad, función)</li>
+                            <li>Información sobre el color en la obra(Gama, naturaleza, función)</li>
+                            <li>Perspectiva</li>
+                            <li>Composición(distribución de las figuras, estructura formal, su posible originalidad)</li>
+                        </ul>
+
+                        <h3>Formas de expresión</h3>
+                        <ul>
+                            <li>Forma de expresión abstracta o figurativa, naturalista, antinaturalista.</li>
+                            <li>Elementos de expresión: Anatomía y sus características, ropaje y pliegues</li>
+                            <li>Dimensión temporal de la obra</li>
+                        </ul>
+
+                        <h3>Comentario</h3>
+                        <p>El comentario de la obra se divide en 4 etapas que pueden ser seguidas para comentar cualquier obra.</p>
+                    <h4>Clasificación de la obra:</h4>
+                        <ul>
+                            <li>Estilo</li>
+                            <li>Escuela o periodo del mismo</li>
+                            <li>Autor</li>
+                            <li>Título de la obra</li>
+                        </ul>
+
+                        <h4>Contenido y función</h4>
+                        <ul>
+                            Tema en la escultura o pintura
+                            <li>Identificación del mismo</li>
+                            <li>Forma de representar</li>
+                            <li>Función en el momento de su creación: mítica, religiosa, mágica, civil.</li>
+                        </ul>
+
+                        <h4>La obra</h4>
+                        <ul>
+                            <li>Circunstancias concretas de su realización y relación con el contexto sociocultural en que aparece</li>
+                            <li>Posibles antecedentes</li>
+                            <li>Su importancia en la producción total del artista</li>
+                            <li>Su trascendencia en la historia del arte</li>
+                        </ul>
+
+                        <h4>El autor</h4>
+                        <p>Breve reseña del mismo haciendo hincapié en las circunstancias que incidan en la obra objeto de estudio.</p>
+
+                        <h2>Desnudo. Por: Celeste Woss y Gil</h2>
                         <img src="./imgs/Desnudo(1948).jpeg" alt="Desnudo - Celeste Woss y Gil">
                         <hr>
                         <h3>Descripción</h3>
@@ -277,7 +380,7 @@
 
         <div class="unidad unidad4">
             <div class="header">
-                <h2>Unidad 4</h2>
+                <h2><i class="fa-solid fa-masks-theater fa-2xl"></i> Unidad 4</h2>
             </div>
             
             <div class="row">
@@ -285,7 +388,7 @@
                     <div id="literatura" class="card">
                         <h1>Aprecición de la literatura y el teatro</h1>
                         <h2>Apreciación de la literatura, Marzo 9, 2023</h2>
-                        <img src="./imgs/libros.jpg" alt="Libros abiertos">
+                        <img src="./imgs/generosliterarios.jpg" alt="Géneros literarios">
                         <hr>
                         <p>La literatura es la expresión artística que poseen como modo de expresión el lenguaje. </p>
                         <h3>Diferencia entre textos literarios y no literarios</h3>
@@ -324,14 +427,19 @@
                             poyétivo o creativo de los textos escritos son las lírica, la narrativa y el teatro</p>
 
                         <h1>Géneros literarios</h1>
-                        <img src="./imgs/generosliterarios.jpg" alt="Géneros literarios">
+                        
                         <ul>
                             <li>La tragedia</li>
+                            <li>Épico o narrativo</li>
+                            <li>Lírico</li>
+                            <li>Ensayo</li>
+                            <li>Poesía</li>
+                            <li>Relato</li>
+                            <li>Novela</li>
                             <li>Comedia</li>
                             <li>Drama</li>
                             <li>Musical</li>
                             <li>Ópera</li>
-                            <li></li>
                         </ul>
 
                         <h2 id="teatro">Apreciación teatral, Marzo 9, 2023</h2>
@@ -384,7 +492,7 @@
 
         <div class="unidad unidad5">
             <div class="header">
-                <h2><i class="fa-solid fa-music fa-spin-pulse"> Unidad 5</i></h2>
+                <h2><i class="fa-solid fa-music fa-spin-pulse"></i> Unidad 5</h2>
             </div>
             
             <div class="row">
@@ -393,11 +501,52 @@
                         <h1>Aprecición musical</h1>
                         <h2>Apreciación de la música, Marzo 23, 2023</h2>
                         <img src="./imgs/musicbg.jpg" style="width: 50%;" alt="Pentagrama">
+                        <h2>El lenguaje de la música</h2>
+                        <p>El lenguaje musical es el conjunto de elementos y técnicas utilizadas para comunicar y expresar ideas y emociones a través de la música. Es un sistema de símbolos que permite representar la altura, la duración, el timbre y la intensidad del sonido de una manera organizada y comprensible.
+                            <br>
+                            El solfeo, por su parte, es una técnica de entrenamiento auditivo y vocal que se utiliza para aprender a leer y escribir música, así como para mejorar la capacidad de interpretación de un músico. El solfeo es una parte integral del lenguaje musical, pero no lo es todo.
+                            <br>
+                            Los cuatro elementos fundamentales del lenguaje musical son:
+                            <ul>
+                                <li><strong>Ritmo: </strong>se refiere a la organización temporal de los sonidos y silencios. El ritmo es esencial para la música ya que le da movimiento y fluidez. El ritmo se puede expresar mediante diversas figuras musicales, como la negra, la blanca, la corchea, la semicorchea, etc.</li>
+                                <li><strong>Armonía</strong>se refiere a la combinación y sucesión de varios sonidos simultáneamente. La armonía es fundamental para crear sensaciones de tensión y relajación en la música. La armonía puede expresarse mediante acordes, que son la unión de tres o más notas tocadas al mismo tiempo.</li>
+                                <li><strong>Melodía: </strong>se refiere a la sucesión de sonidos en el tiempo, que crean una línea melódica. La melodía es el elemento más reconocible de una canción o pieza musical, y es la que suele quedar en la mente del oyente. La melodía se puede expresar mediante notas escritas en una partitura.</li>
+                                <li><strong>Dinámica: </strong>se refiere a la intensidad y volumen del sonido en una pieza musical. La dinámica es esencial para crear contraste y emoción en la música. La dinámica se puede expresar mediante símbolos como los pianos (p, pp, ppp) y los fortes (f, ff, fff).</li>
+                            </ul>
+                            
+                            </p>
                         <h2>Los tipos de instrumentos musicales</h2>
                         <div class="embededVideo">
                             <iframe width="640" height="360" src="https://www.youtube.com/embed/7r4sBm-2ZgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <hr>
+                        <h2>Formas músicales</h2>
+                        <h3>Sinfonía: </h3>
+                        <p>Esta es una de las más famosas formas musicales, se trata de una composición para orquesta, es decir que cuenta con una riqueza de instrumentación, Está compuesta en cuatro movimientos o capítulos de obra. Es común encontrar que estos movimientos se distribuyan así: alegro, largo o lento, molto vivace o minueto y alegro o presto.</p>
+
+                        <h3>Sonata: </h3>
+                        <p>Las sonatas son una de las formas musicales empleadas sobre todo como primer movimiento en obras de cámara y sinfonías.
+                            Hay sonatas de tres y cuatro movimientos. De manera general, las sonatas inician con una introducción de carácter tranquilo, una exposición de dos temas (uno rítmico y el otro expresivo), un desarrollo de los dos temas presentados (éstos se vinculan y transforman pasando por varios tonos) y una reexposición que, como su nombre lo indica, es una repetición de la exposición que finaliza con una sección conclusiva.</p>
+
+                        <h3>Fuga: </h3>
+                        <p>Es una de las formas musicales instrumentales de varias voces que se van superponiendo entre sí, en una rica polifonía. Las ideas principales de una fuga se llaman “sujetos”, que reaparecen como tema o línea principal en las distintas voces y van acompañados de otros temas secundarios que en sí mismos también podrían ser protagonistas o líneas musicales de igual importancia, de allí su complejidad.</p>
+
+                        <h3>Variaciones:</h3>
+                        <p>Son piezas breves instrumentales basadas en un mismo tema que se repite varias veces 1. modificando su ritmo, 2. modificando la armonía y contrapunto, pero no en el tema o 3. modificando el tema, pero manteniendo un detalle que ayude a una nueva idea</p>
+
+                        <h3>Suite: </h3>
+                        <p>Es una pieza instrumental que nace en el Renacimiento en la cual se alternan entre cuatro y seis movimientos de danza de ritmos binario y ternario y tempos contrastantes. Una suite puede ser interpretada por un solista o por un grupo de cámara.</p>
+
+                        <h3>Obertura: </h3>
+                        <p>Es una de las formas musicales instrumentales que preceden a una de mayor extensión como puede ser una ópera, un oratorio, una sinfonía. Se puede componer en tres secciones (rápida, lenta y rápida) según el modelo italiano en el barroco y clasicismo o según el modelo francés (lenta, rápida, lenta).</p>
+
+                        <h3>Poema sinfónico: </h3>
+                        <p>Mucho podríamos decir de un poema sinfónico, una obra musical de un solo movimiento para orquesta (de ahí su apelativo “sinfónico”) que presenta un argumento. La estructura de un poema sinfónico es libre y la reconocemos por su forma y contenido, pues son obras descriptivas, por lo general inspiradas en una pieza literaria o en un acontecimiento histórico.</p>
+                        
+                        <h3>Concierto grosso: </h3>
+                        <p>Es una manera de denominar a lo que desde el clasicismo conocemos como sinfonía concertante. El concierto grosso como concepto nace en el barroco y combina la intención de las sinfonías y los conciertos solistas.
+
+                            Esta es quizás una de las formas musicales instrumentales más famosa del barroco porque alterna los concertinos (solistas) con el resto de la orquesta (tutti) en la interpretación de una obra.</p>
                     </div>
                 </div>
                 <div class="rightcolumn">
@@ -423,25 +572,32 @@
                         <h2>Apreciación del cine (fotografía en movimiento), Marzo 16, 2023</h2>
                         <img src="./imgs/cine1.jpg" style="width: 25%;" alt="Libros abiertos">
                         <hr>
-                        <p>Primero se inició con la fotografía y el desconformismo de los humanos los llevó a crear fotografías con movimiento. Lo que es hoy en día llamado como "cine".</p><br>
-
-                        <p><strong>Tipos de planos:</strong> a detalle, primerísimo, medio corto, americano, medio, panorámico, aberrante y otros planos mas específicos</p><br>
-
-                        <p><strong>Tipos de ángulos:</strong> ángulo normal, de camara picado, contrapicado, cenital, nadir</p><br>
-
+                        <p><em>Primero se inició con la fotografía y el desconformismo de los humanos los llevó a crear fotografías con movimiento. Lo que es hoy en día llamado como "cine".</em></p><br>
+                        <p>En el salón de clases vimos la importancia de los siguientes elemenos en el cine:</p>
+                        <p><strong>Tipos de planos:</strong> a detalle, primerísimo, medio corto, americano, medio, panorámico, aberrante y otros planos mas específicos</p>
+                        <p><strong>Tipos de ángulos:</strong> ángulo normal, de camara picado, contrapicado, cenital, nadir</p>
                         <p><strong>El sonido en el cine: </strong> El sonido es esencial en el cine ya que ayuda a crear una experiencia emocional y sensorial para el espectador, aumentando la inmersión en la trama y creando un ambiente realista que complementa la imagen en pantalla. El sonido puede ser utilizado para generar emociones, crear ambiente, enfatizar la acción y transmitir información importante para la trama, lo que hace que sea una parte crucial del cine y su impacto en el público.</p> <br>
-
+                        
+                        <h2>Géneros cinematográficos:</h2>
+                        <ul>
+                            <li>Comedia</li>
+                            <li>Drama</li>
+                            <li>Ciencia ficción</li>
+                            <li>Acción</li>
+                            <li>Histórico</li>
+                            <li>Musical</li>
+                            <li>Negro</li>
+                            <li>Documental</li>
+                            <li>Cine animado</li>
+                        </ul>
 
                     <h2>Elementos primarios en la apreciación del cine</h2>
                     <ul>
-                        <li>*¿Qué historia cuenta?</li>
-                        <li>*¿Cuál era el tratamiento de la historia: Cómico, Dramático, realista, Futurista, Minimalista, Teatral…?</li>
-                        <li>*¿En cuáles lugares o locaciones ocurrió la trama?</li>
-                        <li>*¿Cuáles fueron los personajes principales?</li>
-                        <li>*¿Cuáles imágenes o fotografías, te impactaron?</li>
-                        <li>*¿Cuáles emociones o sentimientos despertó en ti esa película?</li>
-                        <li>*¿Cuáles planos fotográficos puedes reconocer? (coloca imagen del plano)</li>
-                        <li>*¿Cuáles ángulos identificas?(coloca imagen de los ángulos)</li>
+                        <li>La imagen visual</li>
+                        <li>El guión</li>
+                        <li>La actuación (personajes-perfil-psicológico)</li>
+                        <li>La fotografía: unidad visual de la pelicula en la que se toma en cuenta ilumiación, óptica a utilizar, el encuadre, el color, la textura del film, el ambiente.</li>
+                        <li>La banda sonora: conjunto de sonidos (habla, ruido y música)</li>
                     </ul>
 
 
@@ -488,11 +644,11 @@
             </div>
         
         </div>
+        
         <div class="footer">
             <h2>Creado por Sebastian Manuel Marrera Santos <strong>ID:1117460</strong></h2>
-            
         </div>
-        <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+        
         <script type="text/javascript" src="script.js"></script>
 
     </body>
