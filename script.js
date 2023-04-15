@@ -29,6 +29,8 @@ function showSlides(n) {
 
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
+let body = document.querySelector('body')
+
 
 menu.onclick = () => {
     menu.classList.toggle('bx-x');
@@ -53,13 +55,7 @@ let Unidad7 = document.querySelector(".unidad7");
 
 btn1.addEventListener('click', () =>{
     console.log('btn1 clicked');
-    btn1.style.color ='red'
-    btn2.style.color ='white'
-    btn3.style.color ='white'
-    btn4.style.color ='white'
-    btn5.style.color ='white'
-    btn6.style.color ='white'
-    btn7.style.color ='white'
+    body.style.backgroundImage = "url('./imgs/mujer-exposicion-arte.jpg')"
     if (Unidad1.style.display === 'block'){
         Unidad1.style.display = 'none';
     } else {
@@ -70,13 +66,7 @@ btn1.addEventListener('click', () =>{
 
 btn2.addEventListener('click', () =>{
     console.log('btn2 clicked');
-    btn1.style.color ='white'
-    btn2.style.color ='red'
-    btn3.style.color ='white'
-    btn4.style.color ='white'
-    btn5.style.color ='white'
-    btn6.style.color ='white'
-    btn7.style.color ='white'
+    body.style.backgroundImage = "url('./imgs/ArteTaino.jpg')"
     if (Unidad2.style.display === 'none'){
         Unidad2.style.display = 'block';
     } else {
@@ -86,13 +76,7 @@ btn2.addEventListener('click', () =>{
 
 btn3.addEventListener('click', () =>{
     console.log('btn3 clicked');
-    btn1.style.color ='white'
-    btn2.style.color ='white'
-    btn3.style.color ='red'
-    btn4.style.color ='white'
-    btn5.style.color ='white'
-    btn6.style.color ='white'
-    btn7.style.color ='white'
+    body.style.backgroundImage = "url('./imgs/Elgrito.jpg')"
     if (Unidad3.style.display === 'none'){
         Unidad3.style.display = 'block';
     } else {
@@ -102,13 +86,7 @@ btn3.addEventListener('click', () =>{
 
 btn4.addEventListener('click', () =>{
     console.log('btn4 clicked');
-    btn1.style.color ='white'
-    btn2.style.color ='white'
-    btn3.style.color ='white'
-    btn4.style.color ='red'
-    btn5.style.color ='white'
-    btn6.style.color ='white'
-    btn7.style.color ='white'
+    body.style.backgroundImage = "url('./imgs/libros.jpg')"
     if (Unidad4.style.display === 'none'){
         Unidad4.style.display = 'block';
     } else {
@@ -118,13 +96,7 @@ btn4.addEventListener('click', () =>{
 
 btn5.addEventListener('click', () =>{
     console.log('btn5 clicked');
-    btn1.style.color ='white'
-    btn2.style.color ='white'
-    btn3.style.color ='white'
-    btn4.style.color ='white'
-    btn5.style.color ='red'
-    btn6.style.color ='white'
-    btn7.style.color ='white'
+    body.style.backgroundImage = "url('./imgs/musicaBg.jpg')"
     if (Unidad5.style.display === 'none'){
         Unidad5.style.display = 'block';
     } else {
@@ -134,13 +106,7 @@ btn5.addEventListener('click', () =>{
 
 btn6.addEventListener('click', () =>{
     console.log('btn6 clicked');
-    btn1.style.color ='white'
-    btn2.style.color ='white'
-    btn3.style.color ='white'
-    btn4.style.color ='white'
-    btn5.style.color ='white'
-    btn6.style.color ='red'
-    btn7.style.color ='white'
+    body.style.backgroundImage = "url('./imgs/cine3.jpg')"
     if (Unidad6.style.display === 'none'){
         Unidad6.style.display = 'block';
     } else {
@@ -150,13 +116,7 @@ btn6.addEventListener('click', () =>{
 
 btn7.addEventListener('click', () =>{
     console.log('btn7 clicked');
-    btn1.style.color ='white'
-    btn2.style.color ='white'
-    btn3.style.color ='white'
-    btn4.style.color ='white'
-    btn5.style.color ='white'
-    btn6.style.color ='white'
-    btn7.style.color ='red'
+    body.style.backgroundImage = "url()"
     if (Unidad7.style.display === 'none'){
         Unidad7.style.display = 'block';
     } else {

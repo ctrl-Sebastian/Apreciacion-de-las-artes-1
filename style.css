@@ -158,36 +158,6 @@ header{
     display: none;
 }
 
-.unidad1{
-    background-image: url('./imgs/mujer-exposicion-arte.jpg');
-    background-repeat: no-repeat;
-}
-
-.unidad2{
-    background-image: url('./imgs/ArteTaino.jpg');
-    background-size:cover;
-    
-}
-.unidad3{
-    background-image: url('./imgs/Elgrito.jpg');
-    
-}
-.unidad4{
-    background-image: url('./imgs/libros.jpg');
-}
-.unidad5{
-    background-image: url('./imgs/musicaBg.jpg');
-}
-
-.unidad6{
-    background-image: url('./imgs/cine3.jpg');
-    background-size: cover;
-}
-
-.unidad7{
-    background-image: url();
-}
-
 .header {
     padding: 30px;
     font-size: 40px;
