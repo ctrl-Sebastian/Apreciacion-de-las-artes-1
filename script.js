@@ -55,72 +55,77 @@ let Unidad7 = document.querySelector(".unidad7");
 
 btn1.addEventListener('click', () =>{
     console.log('btn1 clicked');
-    body.style.backgroundImage = "url('./imgs/mujer-exposicion-arte.jpg')"
     if (Unidad1.style.display === 'block'){
+        body.style.backgroundImage = "url('./imgs/mujer-exposicion-arte.jpg')"
         Unidad1.style.display = 'none';
     } else {
         Unidad1.style.display = 'block';
-        
     }
 });
 
 btn2.addEventListener('click', () =>{
     console.log('btn2 clicked');
-    body.style.backgroundImage = "url('./imgs/ArteTaino.jpg')"
     if (Unidad2.style.display === 'none'){
+        body.style.backgroundImage = "url('./imgs/ArteTaino.jpg')"
         Unidad2.style.display = 'block';
     } else {
         Unidad2.style.display = 'none';
+        body.style.backgroundImage = "";
     }
 });
 
 btn3.addEventListener('click', () =>{
     console.log('btn3 clicked');
-    body.style.backgroundImage = "url('./imgs/Elgrito.jpg')"
     if (Unidad3.style.display === 'none'){
+        body.style.backgroundImage = "url('./imgs/Elgrito.jpg')"
         Unidad3.style.display = 'block';
     } else {
         Unidad3.style.display = 'none';
+        body.style.backgroundImage = "";
     }
 });
 
 btn4.addEventListener('click', () =>{
     console.log('btn4 clicked');
-    body.style.backgroundImage = "url('./imgs/libros.jpg')"
     if (Unidad4.style.display === 'none'){
+        body.style.backgroundImage = "url('./imgs/libros.jpg')"
         Unidad4.style.display = 'block';
     } else {
         Unidad4.style.display = 'none';
+        body.style.backgroundImage = "";
     }
 });
 
 btn5.addEventListener('click', () =>{
     console.log('btn5 clicked');
-    body.style.backgroundImage = "url('./imgs/musicaBg.jpg')"
     if (Unidad5.style.display === 'none'){
+        body.style.backgroundImage = "url('./imgs/musicaBg.jpg')"
         Unidad5.style.display = 'block';
     } else {
         Unidad5.style.display = 'none';
+        body.style.backgroundImage = "";
     }
 });
 
 btn6.addEventListener('click', () =>{
     console.log('btn6 clicked');
-    body.style.backgroundImage = "url('./imgs/cine3.jpg')"
     if (Unidad6.style.display === 'none'){
+        body.style.backgroundImage = "url('./imgs/cine3.jpg')"
         Unidad6.style.display = 'block';
     } else {
         Unidad6.style.display = 'none';
+        body.style.backgroundImage = "";
     }
 });
 
 btn7.addEventListener('click', () =>{
     console.log('btn7 clicked');
-    body.style.backgroundImage = "url()"
     if (Unidad7.style.display === 'none'){
+        body.style.backgroundImage = "url()"
         Unidad7.style.display = 'block';
     } else {
         Unidad7.style.display = 'none';
+        body.style.backgroundImage = "";
     }
 });
 
