@@ -55,11 +55,11 @@ let Unidad7 = document.querySelector(".unidad7");
 
 btn1.addEventListener('click', () =>{
     console.log('btn1 clicked');
-    if (Unidad1.style.display === 'block'){
-        body.style.backgroundImage = "url('./imgs/mujer-exposicion-arte.jpg')"
-        Unidad1.style.display = 'none';
-    } else {
+    body.style.backgroundImage = "url('./imgs/mujer-exposicion-arte.jpg')"
+    if (Unidad1.style.display === 'none'){
         Unidad1.style.display = 'block';
+    } else {
+        Unidad1.style.display = 'none';
     }
 });
 
@@ -70,7 +70,6 @@ btn2.addEventListener('click', () =>{
         Unidad2.style.display = 'block';
     } else {
         Unidad2.style.display = 'none';
-        body.style.backgroundImage = "";
     }
 });
 
@@ -120,8 +119,8 @@ btn6.addEventListener('click', () =>{
 
 btn7.addEventListener('click', () =>{
     console.log('btn7 clicked');
+    body.style.backgroundImage = "url('./imgs/arte-historia.jpg')"
     if (Unidad7.style.display === 'none'){
-        body.style.backgroundImage = "url()"
         Unidad7.style.display = 'block';
     } else {
         Unidad7.style.display = 'none';
