@@ -65,10 +65,10 @@ let Unidad7 = document.querySelector(".unidad7");
 btn1.addEventListener('click', () =>{
     console.log('btn1 clicked');
     body.style.backgroundImage = "url('./imgs/mujer-exposicion-arte.jpg')"
-    if (Unidad1.style.display === 'none'){
-        Unidad1.style.display = 'block';
-    } else {
+    if (Unidad1.style.display === 'block'){
         Unidad1.style.display = 'none';
+    } else {
+        Unidad1.style.display = 'block';
     }
 });
 
